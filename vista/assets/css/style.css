@@ -1,0 +1,221 @@
+/*HEREDADO*/
+.sw-theme-arrows > ul.step-anchor > li.active > a {
+    border-color: #289bce !important;
+    color: #fff !important;
+    background: #289bce !important;
+}
+
+.sw-theme-arrows > ul.step-anchor > li.active > a:after {
+    border-left: 30px solid #289bce !important;
+}
+
+.sw-theme-arrows > ul.step-anchor > li.done > a {
+    border-color: #6dacce !important;
+    color: #fff !important;
+    background: #6dacce !important;
+}
+
+.sw-theme-arrows > ul.step-anchor > li.done > a:after {
+    border-left: 30px solid #6dacce;
+}
+.step-content {
+    padding: 5vh 3vw !important;  
+}
+
+.btn-secondary {
+    background-color: #289bce !important;
+    border-color: #289bce !important;
+    margin-left: 1px !important;
+}
+
+.btn-finish{
+    background-color: #0f6d9e;
+    color: white;
+}
+}
+.wrapper-flex {
+    display: flex;
+    padding: inherit;
+}
+
+.col-50 {
+    margin: auto;
+    text-align: center;
+}
+
+.col-50 img {
+    margin-bottom: 2vw;
+}
+
+.hover:hover{
+    border: solid 2px #289bce;
+}
+.img-grayscale{
+        filter: grayscale(100%);
+}
+
+#step-0{
+    margin-top: 30px;
+}
+.hide{
+display: none;
+}
+
+.form-check {
+    margin: 1vh 0px;
+}
+
+.help-block.with-errors {
+    color: #dc3545;
+    font-size: 80%;
+}
+
+.has-error input {
+    border-color: #dc3545 !important;
+}
+
+.has-error input:focus {
+    box-shadow: 0 0 0 2px rgb(220,53,69,.25);
+    border-color: #dc3545;
+}
+
+.has-error-hidden {
+    visibility: hidden;
+}
+
+input.modern {
+    line-height: 2em;
+    width: 33%;
+    margin-bottom: 1vh;
+    border-top: none !important;
+    border-right: none !important;
+    padding-left: 5px;
+    border-left: none !important;
+    border-bottom: 1px solid #2383be !important;
+}
+
+.mkdf-main-menu>ul>li {
+    opacity:1 !important;
+}
+
+
+/*FIN HEREDADO*/
+.margin-superior{
+	padding-top: 100px!important;
+}
+
+.login-form{
+	width: 50%;
+}
+
+.login-form input{
+	padding: 20px;
+	margin: 20px;
+}
+
+.alert-motivar{
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 1001;
+}
+
+.select {
+    -webkit-appearance: none;   
+}
+
+.btn-motivar{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    }
+.btn-motivar span:hover{
+    color: white!important;
+
+    }
+
+/*******************************/
+/*******ESTILOS GENERALES******/
+/******************************/
+
+body{
+ background-color: #f7f7f7 
+     }
+
+.contendor-mot{
+    background-color:#fff; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-top: 20px;
+    margin-bottom: 1em;
+
+}
+.paginate_button{
+    color: black;
+    margin: 5px;
+    padding: 5px:
+    border: 1px solid black!important;
+    border-radius: 5px!important;
+    background-color: #fdfdfd!important;
+}
+
+.paginate_button.current{ 
+    font-weight: bolder;
+  }
+
+#tb_personas_wrapper{
+    max-width: 1100px!important;
+}
+
+.btn-submenu:hover {
+    color: white!important;
+
+}
+/*******************************/
+/*******IMPORTAR EXCEL**********/
+/******************************/
+
+
+.panel-excel .form-group {
+    margin-top: 3%;
+}
+
+
+.tabla-pre-excel{
+    overflow: scroll;
+font-size: 10px;
+
+
+}
+.tabla-pre-excel th{
+
+}
+.eliminar_duplicado button{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.fila-duplicada{
+    background: #FCDA68;
+    color: #88857D;
+    font-style: italic; 
+  }
+ 
+.duplicado, .duplicado_select{
+    background: #FCDA68!important;
+    color: #88857D;
+    font-style: italic; 
+
+}
+
+.info-superior {
+    border:1px solid #1769BA;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-weight: thin;
+    color: #1769BA;
+    font-style: italic;
